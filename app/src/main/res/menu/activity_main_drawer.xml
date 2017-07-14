@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/menu_title_Movies">
+        <menu>
+            <item
+                android:id="@+id/nav_movies1"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="@string/menu_movies_all" />
+            <item
+                android:id="@+id/nav_movies2"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="@string/menu_movies_subtitle" />
+        </menu>
+    </item>
+    <item android:title="@string/menu_title_Apk">
+        <menu>
+        <item
+            android:id="@+id/nav_apk1"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="@string/menu_apk_paid" />
+            <item
+                android:id="@+id/nav_apk2"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="@string/menu_apk_mod" />
+      </menu>
+    </item>
+    <item android:title="@string/menu_title_Music">
+        <menu>
+            <item
+                android:id="@+id/nav_music1"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="@string/menu_music_en" />
+            <item
+                android:id="@+id/nav_music2"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="@string/menu_music_ar" />
+       </menu>
+    </item>
+
+
+    <group  android:id="@+id/grp1">
+        <item
+            android:id="@+id/nav_favourites"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="@string/menu_favourites" />
+    </group>
+    <group  android:id="@+id/grp2">
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="@string/menu_Share" />
+    </group>
+    <group  android:id="@+id/grp3">
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="@string/menu_help" />
+    </group>
+    <group  android:id="@+id/grp4">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="@string/menu_setting" />
+
+    </group>
+    <group  android:id="@+id/grp5">
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="@string/menu_rate" />
+    </group>
+
+
+
+</menu>

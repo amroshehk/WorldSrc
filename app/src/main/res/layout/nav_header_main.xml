@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:weightSum="100"
+    app:layout_collapseParallaxMultiplier="1.0">
+
+    <ImageView
+        android:id="@+id/imageView"
+
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:scaleType="centerInside"
+        android:layout_margin="20dp"
+        android:layout_weight="40.52"
+        android:background="@drawable/customborder5"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_weight="10.35"
+
+        android:text="Smart Shop UAE"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="WorldSoc"
+        android:layout_weight="10.35"/>
+
+</LinearLayout>
